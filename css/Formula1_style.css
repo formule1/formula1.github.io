@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Helvitica neue, Verdana, Arial, sans-serif;
+  color: rgb(17, 17, 17);
+  background-color: rgb(255,255,255);
+  font-size: 14px;
+}
+form {
+  font-size: 24px
+}
+h1 {
+  position: relative;
+  padding: 10px 20px 0px 20px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+.teamindex{
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+.teamteaser {
+    margin: 10px 20px 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding-left: 10px;
+}
+.teamindex> li:hover{
+  background-color: black;
+  color: white;
+}
+.pannel-titel{
+  padding: 10px 10px 10px 10px;
+}
+.portrait {
+  display: block;
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+}
+.drivers{
+
+}
+.youtube {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  frameborder: 0;
+  border: none;
+  overflow: hidden;
+  position: fixed;
+}
+.ifooter{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  position: fixed;
+}

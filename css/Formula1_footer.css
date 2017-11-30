@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Helvitica neue, Verdana, Arial, sans-serif;
+  color: rgb(17, 17, 17);
+  background-color: rgb(255,255,255);
+  font-size: 14px;
+}
+.footerf1{
+  padding-top: 10px;
+  color: rgb(222,222,222);
+  background-color: rgb(22,22,22);
+}
+div{
+  display: block;
+}
+.container{
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 100%;
+}
+.row{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+.info{
+  float: left;
+  width: 50%;
+  margin-left: 10%;
+  left: auto;
+  right: auto;
+}

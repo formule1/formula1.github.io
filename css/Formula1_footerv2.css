@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Helvitica neue, Verdana, Arial, sans-serif;
+  color: rgb(255,255,255);
+  background-color: black;
+}
+div{
+  display: block;
+}
+.table{
+  width: 100%
+}
+.header{
+  font-size: 35px;
+}
+th{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15%
+}

@@ -1,0 +1,38 @@
+body, html {
+  height:100%;
+  margin: 0;
+  font-family:Helvitica neue, Verdana, Arial, sans-serif;
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  line-height:1.8em;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../img/1950f1car.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('../img/1976f1car.jpg');
+  min-height:100%;
+}
+
+.pimg3{
+  background-image:url('../img/1988f1car.jpg');
+  min-height:100%;
+}

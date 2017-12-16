@@ -8,8 +8,12 @@ body {
 div{
   display: block;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 .table{
-  width: 100%
+  width: 100%;
+  text-align: center;
 }
 .header{
   font-size: 35px;
@@ -17,5 +21,17 @@ div{
 th{
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 15%
+  padding-left: 5%
+}
+td{
+  vertical-align: top;
+}
+.folist{
+  color: rgb(222,222,222);
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

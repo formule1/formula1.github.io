@@ -25,29 +25,35 @@ body, html {
 .pimg1{
   background-image:url('../img/1950f1car.jpg');
   min-height:100%;
+  z-index: 1;
 }
 
 .pimg2{
   background-image:url('../img/1976f1car.jpg');
   min-height:100%;
+
 }
 
 .pimg3{
   background-image:url('../img/1988f1car.jpg');
   min-height:100%;
+
 }
 
 .pimg4{
   background-image:url('../img/1996f1car.jpg');
   min-height:100%;
+
 }
 .pimg5{
   background-image:url('../img/2004f1car.jpg');
   min-height:100%;
+
 }
 .pimg6{
   background-image:url('../img/2010f1car.jpg');
   min-height:100%;
+
 }
 .pimg7{
   background-image:url('../img/2018f1car.jpg');
@@ -55,8 +61,12 @@ body, html {
 }
 
 .history-sections{
-  margin: 1%;
+  padding: 3%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  position: relative;
 }
+
 
 .ptext {
   position: absolute;
@@ -67,9 +77,6 @@ body, html {
   font-size: 30px;
   letter-spacing: 3px;
   text-transform: uppercase;
-}
-
-.ptext > .border{
   background-color: transparent;
   padding: 1%;
 }

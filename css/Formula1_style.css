@@ -73,6 +73,12 @@ p {
   border: none;
 }
 
+.teamindex-title {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 2%;
+}
+
 .teamindex{
   margin: 2% 15% 2% 15%;
   padding: 1% 3% 1% 3%;

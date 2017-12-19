@@ -1,11 +1,19 @@
 body, html {
   height:100%;
   margin: 0px;
-  font-family:Helvitica neue, 'Roboto', Arial, sans-serif;
+  font-family:Helvitica neue, '../fonts/Roboto-Regular.tff', Arial, sans-serif;
   color: rgb(17, 17, 17);
   font-size: 14px;
   line-height:1.8em;
+
 }
+.backgroundSwitch{
+    background: url('../img/Background.png');
+}
+.backgroundSwitch2{
+    background: url('../img/Background2.png');
+}
+
 ::-webkit-scrollbar{
   display: none;
 }
@@ -50,27 +58,44 @@ body, html {
   text-align: center;
   font-size: 16px;
   padding-top: 2%;
+  color: black;
+}
+
+.teamindex-title2 {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 2%;
+  color: #EFEFEF;
 }
 
 .teamindex{
   margin: 2% 15% 2% 15%;
   padding: 1% 3% 1% 3%;
   background-color: white;
+  color: black;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-.team-right{
-
+.teamindex2{
+  margin: 2% 15% 2% 15%;
+  padding: 1% 3% 1% 3%;
+  background-color: #111;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-.team-left{
 
-}
 .team-header1, .team-header2, .team-header3{
   font-weight: 700;
 
 }
+
 .team-image{
   position: absolute;
   left: 53%;
   width: 30%;
   height: 30%;
+}
+
+#switch{
+  padding: 0.5%;
+  float: right;
 }

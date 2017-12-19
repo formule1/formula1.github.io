@@ -1,7 +1,7 @@
 body, html {
   height:100%;
   margin: 0px;
-  font-family:Helvitica neue, '../fonts/Roboto-Regular.tff', Arial, sans-serif;
+  font-family:Helvitica neue, 'Roboto', Arial, sans-serif;
   color: rgb(17, 17, 17);
   font-size: 14px;
   line-height:1.8em;

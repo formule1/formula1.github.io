@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Formula 1</title>
+     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 <!--     <link rel="stylesheet" type="text/css" href="css/teams.css"> -->
     <link rel="stylesheet" type="text/css" id="dark-styles" href="css/teams_dark.css" />
     <link rel="stylesheet" type="text/css"  id="light-styles" href="css/teams.css" />
@@ -18,9 +19,10 @@
 //          document.getElementById('light-styles').disabled = false;
 //   }
 // }
+//   document.getElementById('dark-styles').disabled  = true;
+//   document.getElementById('light-styles').disabled = false;
   
-  document.getElementById('dark-styles').disabled  = true;
-  document.getElementById('light-styles').disabled = false;
+  
 $(document).ready(function(){
     $("#switch").click(function(){
 if($("#switchDiv").attr('class') == "teamindex"){

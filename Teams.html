@@ -5,8 +5,8 @@
     <title>Formula 1</title>
     <link rel="stylesheet" type="text/css" href="css/teams.css">
 <!--     <link rel="stylesheet" type="text/css" id="dark-styles" href="css/teams_dark.css" />
-    <link rel="stylesheet" type="text/css"  id="light-styles" href="css/teams.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" type="text/css"  id="light-styles" href="css/teams.css" /> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script lang="javascript">
 // function switchMode(){
@@ -18,31 +18,32 @@
 //          document.getElementById('light-styles').disabled = false;
 //   }
 // }
-//   document.getElementById('dark-styles').disabled  = true;
-//   document.getElementById('light-styles').disabled = false;
-// $(document).ready(function(){
-//     $("#switch").click(function(){
-// if($("#switchDiv").attr('class') == "teamindex"){
-//   $("#switchDiv").removeClass("teamindex");
-//   $("#switchDiv").addClass("teamindex2");
+  
+  document.getElementById('dark-styles').disabled  = true;
+  document.getElementById('light-styles').disabled = false;
+$(document).ready(function(){
+    $("#switch").click(function(){
+if($("#switchDiv").attr('class') == "teamindex"){
+  $("#switchDiv").removeClass("teamindex");
+  $("#switchDiv").addClass("teamindex2");
 
-//   $("body").removeClass("backgroundSwitch");
-//   $("body").addClass("backgroundSwitch2");
+  $("body").removeClass("backgroundSwitch");
+  $("body").addClass("backgroundSwitch2");
 
-//   $("#switchTitle").removeClass("teamindex-title");
-//   $("#switchTitle").addClass("teamindex-title2");
-// }else{
-//   $("#switchDiv").removeClass("teamindex2");
-//   $("#switchDiv").addClass("teamindex");
+  $("#switchTitle").removeClass("teamindex-title");
+  $("#switchTitle").addClass("teamindex-title2");
+}else{
+  $("#switchDiv").removeClass("teamindex2");
+  $("#switchDiv").addClass("teamindex");
 
-//   $("body").removeClass("backgroundSwitch2");
-//   $("body").addClass("backgroundSwitch");
+  $("body").removeClass("backgroundSwitch2");
+  $("body").addClass("backgroundSwitch");
 
-//   $("#switchTitle").removeClass("teamindex-title2");
-//   $("#switchTitle").addClass("teamindex-title");
-// }
-//     });
-// });
+  $("#switchTitle").removeClass("teamindex-title2");
+  $("#switchTitle").addClass("teamindex-title");
+}
+    });
+});
 
   // $(document).ready(function(){
   //    alert('dsfgfdg');

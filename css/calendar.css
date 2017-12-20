@@ -6,6 +6,12 @@ body, html {
   font-size: 14px;
   line-height:1.75em;
 }
+.backgroundSwitch{
+    background: url('../img/Background.png');
+}
+.backgroundSwitch2{
+    background: url('../img/Background2.png');
+}
 ::-webkit-scrollbar{
   display: none;
 }
@@ -13,6 +19,12 @@ body, html {
   text-align: center;
   font-size: 16px;
   padding-top: 2%;
+}
+.calendarindex-title2{
+  text-align: center;
+  font-size: 16px;
+  padding-top: 2%;
+  color: #EFEFEF;
 }
 .calendarindex{
   margin: 2% 15% 4% 15%;

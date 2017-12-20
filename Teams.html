@@ -5,10 +5,23 @@
     <title>Formula 1</title>
      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/teams.css">
-
+    <!-- <link rel="stylesheet" type="text/css" id="dark-styles" href="css/teams_dark.css" />
+    <link rel="stylesheet" type="text/css"  id="light-styles" href="css/teams.css" /> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script lang="javascript">
+// function switchMode(){
+//   if(document.getElementById('dark-styles').disabled){
+//          document.getElementById('dark-styles').disabled  = false;
+//          document.getElementById('light-styles').disabled = true;
+//   } else{
+//          document.getElementById('dark-styles').disabled  = true;
+//          document.getElementById('light-styles').disabled = false;
+//   }
+// }
+//   document.getElementById('dark-styles').disabled  = true;
+//   document.getElementById('light-styles').disabled = false;
+
 
 $(document).ready(function(){
     $("#switch").click(function(){
@@ -45,7 +58,7 @@ if($("#switchDiv").attr('class') == "teamindex"){
   //    });​
 
 
-</script>
+    </script>
 </head>
 <body class="backgroundSwitch">
   <button id="switch" >Mood Lighning</button>
@@ -57,9 +70,15 @@ if($("#switchDiv").attr('class') == "teamindex"){
         <div class="team-right">
           <img class="team-image" src="img\mercedes.jpg">
           <h1>Mercedes-AMG</h1>
-          <p><b>Drivers</b><br>Lewis Hamilton<br>Valteri Bottas</p>
-          <p><b>Podiums Achieved</b><br>137</p>
-          <p><b>Championships collected</b><br>4</p>
+          <p>Drivers</p>
+          <p>
+          Lewis Hamilton<br>
+          Valteri Bottas
+          </p>
+          <p>Podiums Achieved</p>
+          <p>137</p>
+          <p >Championships collected</p>
+          <p>4</p>
 
         </div>
         <div class="team-right">

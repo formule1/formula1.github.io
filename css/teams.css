@@ -18,37 +18,6 @@ body, html {
   display: none;
 }
 
-.banner > .banner-image {
-  width: 100%;
-  display: block;
-}
-
-.pannel-titel{
-  padding: 10px 10px 10px 10px;
-}
-.portrait {
-  display: block;
-  height: 15px;
-  width: 15px;
-  vertical-align: middle;
-}
-
-.youtube {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  frameborder: 0;
-  border: none;
-  overflow: hidden;
-  position: fixed;
-}
-.ifooter{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  border: none;
 }
 .iframe {
   width: 100%;
@@ -74,14 +43,14 @@ body, html {
   padding: 1% 3% 1% 3%;
   background-color: white;
   color: black;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 .teamindex2{
   margin: 2% 15% 2% 15%;
   padding: 1% 3% 1% 3%;
   background-color: #111;
   color: white;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .team-header1, .team-header2, .team-header3{
@@ -92,11 +61,19 @@ body, html {
 .team-image{
   position: absolute;
   left: 53%;
-  width: 30%;
-  height: 30%;
+  width: 26%;
+  height: auto;
 }
 
 #switch{
   padding: 0.5%;
   float: right;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  border: none;
+}
+hr{
+  margin: 0;
+  margin-top: 55px;
 }

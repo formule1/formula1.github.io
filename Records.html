@@ -3,14 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Formula 1</title>
-    <link rel="stylesheet" type="text/css" href="css/records.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/records.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script lang="javascript">
+
+
+$(document).ready(function(){
+    $("#switch").click(function(){
+if($("#switchDiv").attr('class') == "recordsindex"){
+  $("#switchDiv").removeClass("recordsindex");
+  $("#switchDiv").addClass("recordsindex2");
+
+  $("body").removeClass("backgroundSwitch");
+  $("body").addClass("backgroundSwitch2");
+
+  $("#switchTitle").removeClass("recordsindex-title");
+  $("#switchTitle").addClass("recordsindex-title2");
+}else{
+  $("#switchDiv").removeClass("recordsindex2");
+  $("#switchDiv").addClass("recordsindex");
+
+  $("body").removeClass("backgroundSwitch2");
+  $("body").addClass("backgroundSwitch");
+
+  $("#switchTitle").removeClass("recordsindex-title2");
+  $("#switchTitle").addClass("recordsindex-title");
+}
+    });
+});
+</script>
   </head>
-  <body background="img\Background.png">
-      <div class="recordsindex-title">
+  <body class="backgroundSwitch">
+    <button id="switch">Display mode</button>
+      <div id="switchTitle" class="recordsindex-title">
       	 <h1>Records</h1>
       </div>
-      <div class="recordsindex">
+      <div id="switchDiv" class="recordsindex">
         <div class="records-right">
           <img class="Schumacher" src="img/Records/Schumacher.jpg">
           <h1>Most Championships collected</h1>

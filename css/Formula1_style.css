@@ -72,38 +72,3 @@ p {
   padding: 0;
   border: none;
 }
-
-.teamindex-title {
-  text-align: center;
-  font-size: 16px;
-  padding-top: 2%;
-}
-
-.teamindex{
-  margin: 2% 15% 2% 15%;
-  padding: 1% 3% 1% 3%;
-  background-color: white;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-.team-right{
-
-}
-.team-left{
-
-}
-.team-header1, .team-header2, .team-header3{
-  font-weight: 700;
-
-}
-.team-header2{
-
-}
-.team-header3{
-
-}
-.team-image{
-  position: absolute;
-  left: 55%;
-  width: 30%;
-  height: 30%;
-}

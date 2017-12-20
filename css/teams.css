@@ -45,9 +45,10 @@ body, html {
 }
 .ifooter{
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 0;
   padding: 0;
+  border: none;
 }
 .iframe {
   width: 100%;

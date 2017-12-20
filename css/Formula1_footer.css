@@ -36,7 +36,6 @@ div{
   margin-left: 20%;
   left: auto;
   right: auto;
-  margin-bottom: 15px;
 }
 .folist{
   color: rgb(222,222,222);
@@ -46,4 +45,9 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.Easteregglink{
+  color: rgb(222,222,222);
+  text-decoration: none;
+  cursor: help;
 }

@@ -57,3 +57,6 @@ hr{
   opacity: 0.5;
   border: none;
 }
+#switch:hover{
+  opacity: 0.8;
+}

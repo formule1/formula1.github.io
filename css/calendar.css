@@ -49,3 +49,11 @@ hr{
 .pbot{
   margin-bottom: 30px
 }
+#switch{
+  padding: 0.5%;
+  float: right;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  border: none;
+}

@@ -6,7 +6,6 @@ body, html {
   font-size: 16px;
   line-height:1.5em;
   width: 100%;
-  //overflow-x:hidden; voorkomt sidescroll maar zorgt er ook voor dat hij het op veel plekken niet doet vandaar uit gezet
 }
 ::-webkit-scrollbar{
   display: none;
